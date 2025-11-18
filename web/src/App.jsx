@@ -5,7 +5,7 @@ import ProductDetails from "./pages/ProductDetails";
 export default function App() {
   return (
     <div style={{ textAlign: "center", padding: "20px" }}>
-      <h1>🛍️ Estudo de Caso - Loja React</h1>
+      <h1> Estudo de Caso</h1>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/product/:id" element={<ProductDetails />} />
