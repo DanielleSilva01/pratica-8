@@ -81,5 +81,3 @@ O Expo exibirá um QR Code para abrir o app no celular (Expo Go) ou opção para
 
 * Web: navegação entre lista e detalhes no navegador.
 * Mobile: telas acessíveis via Expo com transição entre Home → Detalhes.
-
-### ✔️ Documento final revisado e pronto para entrega
