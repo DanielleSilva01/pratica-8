@@ -20,6 +20,7 @@ estudo-de-caso/
         ├── HomeScreen.js
         └── DetailsScreen.js
 
+
 ## 🌍 Projeto Web – React com Vite
 
 ### ▶️ Como executar
