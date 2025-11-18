@@ -10,7 +10,7 @@ export default function HomeScreen({ navigation }) {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>🛍️ Lista de Produtos</Text>
+      <Text style={styles.title}> Lista de Produtos</Text>
 
       <View style={styles.list}>
         {produtos.map((p) => (
