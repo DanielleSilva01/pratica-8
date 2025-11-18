@@ -1,15 +1,10 @@
-# 🧩 Prática 08 - Rotas
+# 🧩 Prática 08 – Sistema de Rotas (Web e Mobile)
 
-## 👨‍💻 Aluna  
-**Carolina Ferreira Passos**
 
----
+## 📂 Organização do Projeto
 
-## 📁 Estrutura do Projeto
-
-```
-meu-estudo-caso/
-├── web/ → Projeto React com rotas
+estudo-de-caso/
+├── web/        → Aplicação em React (Vite)
 │   ├── index.html
 │   ├── vite.config.js
 │   ├── package.json
@@ -18,86 +13,72 @@ meu-estudo-caso/
 │       ├── main.jsx
 │       └── index.css
 │
-└── mobile/ → Projeto React Native com navegação
+└── mobile/     → Aplicação em React Native (Expo)
     ├── App.js
     ├── package.json
     └── screens/
         ├── HomeScreen.js
         └── DetailsScreen.js
-```
 
----
+## 🌍 Projeto Web – React com Vite
 
-## 🌐 Projeto Web (React + Vite)
+### ▶️ Como executar
 
-### ⚙️ Instalação e Execução
 ```bash
 cd web
 npm install
 npm run dev
 ```
 
-Depois, abra no navegador:  
-👉 **http://localhost:5173**
+A aplicação ficará disponível em:
+👉 **[http://localhost:5173](http://localhost:5173)**
 
----
+### 📌 Funcionalidades implementadas
 
-### 🧭 Funcionalidades
-- Rota **“/”** → exibe a **lista de produtos** (Notebook Dell, Mouse Gamer, Monitor 27’’).  
-- Rota **“/detalhes/:id”** → exibe os **detalhes** do produto selecionado.  
-- Navegação entre as rotas utilizando o **React Router**.  
+* **Rota inicial ("/")** → mostra uma **listagem de produtos**.
+* **Rota dinâmica ("/detalhes/:id")** → apresenta informações completas do item escolhido.
+* Navegação feita com **React Router DOM**, utilizando componentes como `BrowserRouter`, `Routes` e `Link`.
 
----
+### 📦 Dependências principais
 
-### 🧱 Bibliotecas Utilizadas
-- **React** → Criação de componentes.  
-- **React Router DOM** → Gerenciamento de rotas.  
-- **Vite** → Ferramenta de build e servidor local.  
+* **React**
+* **React Router DOM**
+* **Vite**
 
----
+## 📱 Projeto Mobile – React Native + Expo
 
-## 📱 Projeto Mobile (React Native + Expo)
+### ▶️ Como executar
 
-### ⚙️ Instalação e Execução
 ```bash
 cd mobile
 npm install
 npx expo start
 ```
 
-Ao iniciar o servidor, será exibido um QR Code.  
-Você pode:
-- Escanear com o aplicativo **Expo Go** no celular;  
-- Ou pressionar **“w”** para abrir no navegador.
+O Expo exibirá um QR Code para abrir o app no celular (Expo Go) ou opção para rodar no navegador.
 
----
+### 📌 Funcionalidades implementadas
 
-### 🧭 Funcionalidades
-- Tela **Home** → exibe a lista de produtos com botões para acessar os detalhes.  
-- Tela **Detalhes** → mostra o nome e a descrição do produto selecionado.  
-- Navegação realizada com o **React Navigation** (Stack Navigator).  
+* **Tela Home** → exibe os produtos disponíveis.
+* **Tela Detalhes** → mostra dados do item selecionado.
+* Navegação através do **React Navigation (Stack Navigator)**.
 
----
+### 📦 Dependências principais
 
-### 🧱 Bibliotecas Utilizadas
-- **React Native** → Base do app mobile.  
-- **Expo** → Ambiente de execução e build.  
-- **@react-navigation/native** → Sistema de rotas.  
-- **@react-navigation/native-stack** → Pilha de navegação.  
+* **React Native**
+* **Expo**
+* **@react-navigation/native**
+* **@react-navigation/native-stack**
 
----
+## 📝 Considerações
 
-## 🧠 Observações Finais
-- O projeto foi desenvolvido conforme os requisitos do professor na **Prática 08 - Rota**.  
-- Inclui **versões separadas para Web e Mobile**, ambas funcionando corretamente.  
-- As rotas e telas seguem o mesmo padrão e nomenclatura entre as duas plataformas.  
+* Tanto a versão **Web** quanto a **Mobile** seguem o mesmo conjunto de produtos.
+* As rotas foram implementadas conforme solicitado na **Prática 08**, contemplando navegação e telas específicas.
+* O projeto está organizado e funcional nos dois ambientes.
 
----
+## 📸 Demonstrações
 
-## 📸 Demonstração
-- Web: React + Vite com React Router.  
-- Mobile: Expo + React Navigation com duas telas.  
+* Web: navegação entre lista e detalhes no navegador.
+* Mobile: telas acessíveis via Expo com transição entre Home → Detalhes.
 
----
-
-**Versão final revisada e testada - pronta para entrega.**
+### ✔️ Documento final revisado e pronto para entrega
